@@ -1,0 +1,253 @@
+/* Reset básico e estilos gerais */
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #020202;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+
+}
+#servicos .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.servico {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    border-bottom: solid #ffffff 3px;
+}
+
+.servico:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.servico img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.servico h3 {font-family: "Oswald", sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.servico p {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2em;
+    line-height: 1;
+    
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.servico ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.servico ul li {border-radius: 10px;
+    background-color: #00b336;
+    padding: 5px;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color:white;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.section {
+    padding-bottom:20px ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    color: white;
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.bg-gray {
+    background-color: #f2f2f2;
+}
+
+/* Header */
+.header {
+    background-color:  #3e176b;
+    color: #fff;
+padding-bottom: 25px;
+    width: 100%;
+
+}
+
+
+
+.nav-links {
+    list-style-type: none;
+}
+.nav-links ul {
+   margin: 0 auto;
+   padding:0;
+}
+.nav-links li {
+    font-size: 10px;
+    display: inline;
+}
+
+.nav-links li a {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    
+    color: #f0f0f0;
+}
+.servico span p{
+    font-size: 0.7em;
+} 
+/* Banner */
+.banner {
+    background-image: url(midia/Black\ Pink\ and\ Blue\ Modern\ Website\ Traffic\ Graph\ \(1\).png);
+    background-size: 50% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+
+.banner-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.banner-text {
+
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.banner-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+.servico{
+    max-width: 90%;
+    margin-bottom: 50px;
+}
+.banner-btn:hover {
+    background-color: #0056b3; /* Cor mais escura no hover */
+    transform: translateY(-3px); /* Efeito de levantar um pouco */
+}
+section-title
+.servico > img{
+    padding-top:10px;
+    border-radius: 20px;
+}
+#empresas-parceiras {
+    
+    background-color: #3e176b;
+    padding: 0px 0;
+}
+
+.logos-parceiros {padding-top:10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo-parceiro {
+margin: 0;
+    text-align: center;
+    width: 100px; /* Largura máxima para cada logo */
+}
+
+.logo-parceiro img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.logo-parceiro:hover img {
+    transform: scale(1.1); /* Efeito de escala suave ao passar o mouse */
+}
+    
+.bg-gray{
+        background-color: #3e176b;
+}
+#sobre > .container{
+    width: 90%;
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+text-align: left;
+}  
+#final{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+ 
+}
+#final >img{
+    margin-top: 0;
+}
+.social-icons {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+
+}
+footer{
+    padding: 5px;
+    background-color:#3e176b;
+    text-align: center;
+}
+
